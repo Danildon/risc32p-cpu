@@ -3,7 +3,7 @@ This repository contains an experimental implementation of a custom 32-bit pipel
 
 Features
 
--  32-bit custom RISC architecture
+32-bit custom RISC architecture
 
 -  5-stage pipeline:
   -  Instruction Fetch (IF)
@@ -12,7 +12,7 @@ Features
   -  Memory (MEM)
   -  Writeback (WB)
 
--  Modular SystemVerilog design:
+Modular SystemVerilog design:
   -  Separate control unit and datapath
   -  Unified memory model
   -  8 general-purpose registers
