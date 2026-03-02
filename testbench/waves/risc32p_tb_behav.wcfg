@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="risc32p_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="risc32p_tb" />
+            <top_module name="risc32p_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="205.001 ns"></ZoomEndTime>
+      <Cursor1Time time="94.560 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="200"></NameColumnWidth>
+      <ValueColumnWidth column_width="137"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="102" />
+   <wvobject type="divider" fp_name="divider9">
+      <obj_property name="label">DUT IF</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/int_signal" type="logic">
+      <obj_property name="ElementShortName">int_signal</obj_property>
+      <obj_property name="ObjectShortName">int_signal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/out_port" type="array">
+      <obj_property name="ElementShortName">out_port[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_port[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/output_index" type="array">
+      <obj_property name="ElementShortName">output_index[31:0]</obj_property>
+      <obj_property name="ObjectShortName">output_index[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/last_out" type="array">
+      <obj_property name="ElementShortName">last_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">last_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider8">
+      <obj_property name="label">MEMORY</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_memory/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_memory/addr" type="array">
+      <obj_property name="ElementShortName">addr[17:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_memory/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_memory/wdata" type="array">
+      <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_memory/rdata" type="array">
+      <obj_property name="ElementShortName">rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_memory/ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_memory/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider106">
+      <obj_property name="label">PIPE CTRL</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_pipeline_ctrl/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_pipeline_ctrl/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_pipeline_ctrl/int_signal" type="logic">
+      <obj_property name="ElementShortName">int_signal</obj_property>
+      <obj_property name="ObjectShortName">int_signal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_pipeline_ctrl/if_id" type="array">
+      <obj_property name="ElementShortName">if_id</obj_property>
+      <obj_property name="ObjectShortName">if_id</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_pipeline_ctrl/id_ex" type="array">
+      <obj_property name="ElementShortName">id_ex</obj_property>
+      <obj_property name="ObjectShortName">id_ex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_pipeline_ctrl/ex_mem" type="array">
+      <obj_property name="ElementShortName">ex_mem</obj_property>
+      <obj_property name="ObjectShortName">ex_mem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_pipeline_ctrl/mem_wb" type="array">
+      <obj_property name="ElementShortName">mem_wb</obj_property>
+      <obj_property name="ObjectShortName">mem_wb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_pipeline_ctrl/pc_write_en" type="logic">
+      <obj_property name="ElementShortName">pc_write_en</obj_property>
+      <obj_property name="ObjectShortName">pc_write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_pipeline_ctrl/if_id_write_en" type="logic">
+      <obj_property name="ElementShortName">if_id_write_en</obj_property>
+      <obj_property name="ObjectShortName">if_id_write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_pipeline_ctrl/id_ex_write_en" type="logic">
+      <obj_property name="ElementShortName">id_ex_write_en</obj_property>
+      <obj_property name="ObjectShortName">id_ex_write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_pipeline_ctrl/ex_mem_write_en" type="logic">
+      <obj_property name="ElementShortName">ex_mem_write_en</obj_property>
+      <obj_property name="ObjectShortName">ex_mem_write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_pipeline_ctrl/mem_wb_write_en" type="logic">
+      <obj_property name="ElementShortName">mem_wb_write_en</obj_property>
+      <obj_property name="ObjectShortName">mem_wb_write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_pipeline_ctrl/flush_if" type="logic">
+      <obj_property name="ElementShortName">flush_if</obj_property>
+      <obj_property name="ObjectShortName">flush_if</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_pipeline_ctrl/flush_id" type="logic">
+      <obj_property name="ElementShortName">flush_id</obj_property>
+      <obj_property name="ObjectShortName">flush_id</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_pipeline_ctrl/flush_ex" type="logic">
+      <obj_property name="ElementShortName">flush_ex</obj_property>
+      <obj_property name="ObjectShortName">flush_ex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_pipeline_ctrl/load_use_hazard" type="logic">
+      <obj_property name="ElementShortName">load_use_hazard</obj_property>
+      <obj_property name="ObjectShortName">load_use_hazard</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_pipeline_ctrl/memory_use_hazard" type="logic">
+      <obj_property name="ElementShortName">memory_use_hazard</obj_property>
+      <obj_property name="ObjectShortName">memory_use_hazard</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_pipeline_ctrl/interrupt_stall" type="logic">
+      <obj_property name="ElementShortName">interrupt_stall</obj_property>
+      <obj_property name="ObjectShortName">interrupt_stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_pipeline_ctrl/swap_stall" type="logic">
+      <obj_property name="ElementShortName">swap_stall</obj_property>
+      <obj_property name="ObjectShortName">swap_stall</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider97">
+      <obj_property name="label">IF STAGE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_if_stage/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_if_stage/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_if_stage/pc_write_en" type="logic">
+      <obj_property name="ElementShortName">pc_write_en</obj_property>
+      <obj_property name="ObjectShortName">pc_write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_if_stage/flush_if" type="logic">
+      <obj_property name="ElementShortName">flush_if</obj_property>
+      <obj_property name="ObjectShortName">flush_if</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_if_stage/pc_next" type="array">
+      <obj_property name="ElementShortName">pc_next[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_next[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_if_stage/pc_current" type="array">
+      <obj_property name="ElementShortName">pc_current[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_current[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_if_stage/instr_out" type="array">
+      <obj_property name="ElementShortName">instr_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider373">
+      <obj_property name="label">IF/ID REG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_if_id_reg/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_if_id_reg/instr_in" type="array">
+      <obj_property name="ElementShortName">instr_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_if_id_reg/write_en" type="logic">
+      <obj_property name="ElementShortName">write_en</obj_property>
+      <obj_property name="ObjectShortName">write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_if_id_reg/flush" type="logic">
+      <obj_property name="ElementShortName">flush</obj_property>
+      <obj_property name="ObjectShortName">flush</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_if_id_reg/pc_in" type="array">
+      <obj_property name="ElementShortName">pc_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_if_id_reg/if_id_out" type="array">
+      <obj_property name="ElementShortName">if_id_out</obj_property>
+      <obj_property name="ObjectShortName">if_id_out</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider392">
+      <obj_property name="label">ID STAGE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_id_stage/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_id_stage/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_id_stage/if_id_in" type="array">
+      <obj_property name="ElementShortName">if_id_in</obj_property>
+      <obj_property name="ObjectShortName">if_id_in</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_id_stage/mem_wb_in" type="array">
+      <obj_property name="ElementShortName">mem_wb_in</obj_property>
+      <obj_property name="ObjectShortName">mem_wb_in</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_id_stage/id_ex_out" type="array">
+      <obj_property name="ElementShortName">id_ex_out</obj_property>
+      <obj_property name="ObjectShortName">id_ex_out</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_id_stage/rs_val" type="array">
+      <obj_property name="ElementShortName">rs_val[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rs_val[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_id_stage/rt_val" type="array">
+      <obj_property name="ElementShortName">rt_val[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rt_val[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_id_stage/ctrl_id" type="array">
+      <obj_property name="ElementShortName">ctrl_id</obj_property>
+      <obj_property name="ObjectShortName">ctrl_id</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider3021">
+      <obj_property name="label">REGFILE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_id_stage/u_regfile/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_id_stage/u_regfile/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_id_stage/u_regfile/write_en" type="logic">
+      <obj_property name="ElementShortName">write_en</obj_property>
+      <obj_property name="ObjectShortName">write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_id_stage/u_regfile/read_addr_a" type="array">
+      <obj_property name="ElementShortName">read_addr_a[2:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr_a[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_id_stage/u_regfile/read_addr_b" type="array">
+      <obj_property name="ElementShortName">read_addr_b[2:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr_b[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_id_stage/u_regfile/write_addr" type="array">
+      <obj_property name="ElementShortName">write_addr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">write_addr[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_id_stage/u_regfile/write_data" type="array">
+      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_id_stage/u_regfile/read_data_a" type="array">
+      <obj_property name="ElementShortName">read_data_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data_a[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_id_stage/u_regfile/read_data_b" type="array">
+      <obj_property name="ElementShortName">read_data_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data_b[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_id_stage/u_regfile/registers" type="array">
+      <obj_property name="ElementShortName">registers[0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">registers[0:7][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/risc32p_tb/dut/u_id_stage/u_regfile/registers[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc32p_tb/dut/u_id_stage/u_regfile/registers[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc32p_tb/dut/u_id_stage/u_regfile/registers[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc32p_tb/dut/u_id_stage/u_regfile/registers[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc32p_tb/dut/u_id_stage/u_regfile/registers[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc32p_tb/dut/u_id_stage/u_regfile/registers[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc32p_tb/dut/u_id_stage/u_regfile/registers[6]" type="array">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/risc32p_tb/dut/u_id_stage/u_regfile/registers[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider421">
+      <obj_property name="label">EX STAGE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_ex_stage/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_ex_stage/id_ex_in" type="array">
+      <obj_property name="ElementShortName">id_ex_in</obj_property>
+      <obj_property name="ObjectShortName">id_ex_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_ex_stage/ex_mem_out" type="array">
+      <obj_property name="ElementShortName">ex_mem_out</obj_property>
+      <obj_property name="ObjectShortName">ex_mem_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_ex_stage/risc32p_alu_sel" type="array">
+      <obj_property name="ElementShortName">risc32p_alu_sel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">risc32p_alu_sel[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_ex_stage/risc32p_modify_flags" type="logic">
+      <obj_property name="ElementShortName">risc32p_modify_flags</obj_property>
+      <obj_property name="ObjectShortName">risc32p_modify_flags</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_ex_stage/risc32p_alu_op_a" type="array">
+      <obj_property name="ElementShortName">risc32p_alu_op_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">risc32p_alu_op_a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_ex_stage/risc32p_alu_op_b" type="array">
+      <obj_property name="ElementShortName">risc32p_alu_op_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">risc32p_alu_op_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_ex_stage/risc32p_alu_result" type="array">
+      <obj_property name="ElementShortName">risc32p_alu_result[32:0]</obj_property>
+      <obj_property name="ObjectShortName">risc32p_alu_result[32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_ex_stage/risc32p_branch_taken" type="logic">
+      <obj_property name="ElementShortName">risc32p_branch_taken</obj_property>
+      <obj_property name="ObjectShortName">risc32p_branch_taken</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_ex_stage/risc32p_branch_flag" type="logic">
+      <obj_property name="ElementShortName">risc32p_branch_flag</obj_property>
+      <obj_property name="ObjectShortName">risc32p_branch_flag</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider432">
+      <obj_property name="label">MEM STAGE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_mem_stage/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_mem_stage/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_mem_stage/ex_mem_in" type="array">
+      <obj_property name="ElementShortName">ex_mem_in</obj_property>
+      <obj_property name="ObjectShortName">ex_mem_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_mem_stage/mem_addr" type="array">
+      <obj_property name="ElementShortName">mem_addr[17:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_mem_stage/mem_wdata" type="array">
+      <obj_property name="ElementShortName">mem_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_mem_stage/mem_rdata" type="array">
+      <obj_property name="ElementShortName">mem_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_mem_stage/mem_wr_en" type="logic">
+      <obj_property name="ElementShortName">mem_wr_en</obj_property>
+      <obj_property name="ObjectShortName">mem_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_mem_stage/mem_wb_out" type="array">
+      <obj_property name="ElementShortName">mem_wb_out</obj_property>
+      <obj_property name="ObjectShortName">mem_wb_out</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider445">
+      <obj_property name="label">WB STAGE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_wb_stage/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_wb_stage/mem_wb_in" type="array">
+      <obj_property name="ElementShortName">mem_wb_in</obj_property>
+      <obj_property name="ObjectShortName">mem_wb_in</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_wb_stage/out_port" type="array">
+      <obj_property name="ElementShortName">out_port[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_port[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider3069">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_ex_stage/u_alu/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_ex_stage/u_alu/op_a" type="array">
+      <obj_property name="ElementShortName">op_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op_a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_ex_stage/u_alu/op_b" type="array">
+      <obj_property name="ElementShortName">op_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_ex_stage/u_alu/alu_sel" type="array">
+      <obj_property name="ElementShortName">alu_sel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_sel[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_ex_stage/u_alu/alu_result" type="array">
+      <obj_property name="ElementShortName">alu_result[32:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[32:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_ex_stage/u_alu/a_ext" type="array">
+      <obj_property name="ElementShortName">a_ext[32:0]</obj_property>
+      <obj_property name="ObjectShortName">a_ext[32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/risc32p_tb/dut/u_ex_stage/u_alu/b_ext" type="array">
+      <obj_property name="ElementShortName">b_ext[32:0]</obj_property>
+      <obj_property name="ObjectShortName">b_ext[32:0]</obj_property>
+   </wvobject>
+</wave_config>
